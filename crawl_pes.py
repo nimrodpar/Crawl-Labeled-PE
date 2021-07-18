@@ -11,8 +11,7 @@ import platform
 import log
 
 
-# PE_EXTENSIONS = [".acm", ".ax", ".cpl", ".dll", ".drv", ".efi", ".exe", ".mui", ".ocx", ".scr", ".sys", ".tsp"]
-PE_EXTENSIONS = [".cpl"]
+PE_EXTENSIONS = [".acm", ".ax", ".cpl", ".dll", ".drv", ".efi", ".exe", ".mui", ".ocx", ".scr", ".sys", ".tsp"]
 UPDATES_JSON_PATH = "updates.json"
 DATA_PATH = "data"
 ARIA2C_APP_PATH = "tools/aria2c.exe"
